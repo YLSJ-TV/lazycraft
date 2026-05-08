@@ -28,6 +28,15 @@ a:hover { color: #ff0000; }
     background-color: #ff0000;
     color: #ffffff;
 }
+/* 卫星地图禁用按钮样式 */
+.link-btn-disabled {
+    background-color: #666666;
+    color: #ffffff;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: default;
+}
 </style>
 </head>
 <body>
@@ -38,15 +47,16 @@ a:hover { color: #ff0000; }
     </td>
   </tr>
 
-  <!-- 🔥 修复导航链接：全部正确跳转 -->
+  <!-- 🔥 导航栏：友邻城镇改为单独页面链接 -->
   <tr>
     <td height="36" bgcolor="#000080">
       <table width="100%" border="0" cellpadding="0" cellspacing="0">
         <tr align="center">
-          <td width="25%"><a href="index.html"><font color="#ffffff" face="宋体" size="3"><b>首页</b></font></a></td>
-          <td width="25%"><a href="download.html"><font color="#ffffff" face="宋体" size="3"><b>下载游戏</b></font></a></td>
-          <td width="25%"><a href="news.html"><font color="#ffffff" face="宋体" size="3"><b>慵懒新闻</b></font></a></td>
-          <td width="25%"><a href="about.html"><font color="#ffffff" face="宋体" size="3"><b>关于本站</b></font></a></td>
+          <td width="20%"><a href="index.html"><font color="#ffffff" face="宋体" size="3"><b>首页</b></font></a></td>
+          <td width="20%"><a href="download.html"><font color="#ffffff" face="宋体" size="3"><b>下载游戏</b></font></a></td>
+          <td width="20%"><a href="news.html"><font color="#ffffff" face="宋体" size="3"><b>慵懒新闻</b></font></a></td>
+          <td width="20%"><a href="about.html"><font color="#ffffff" face="宋体" size="3"><b>关于本站</b></font></a></td>
+          <td width="20%"><a href="friends.html"><font color="#ffffff" face="宋体" size="3"><b>友邻城镇</b></font></a></td>
         </tr>
       </table>
     </td>
@@ -70,7 +80,8 @@ a:hover { color: #ff0000; }
             <a href="https://gitee.com/q332999063/mc" target="_blank" class="link-btn">入服必读 完整文档</a>
           </td>
           <td width="50%">
-            <a href="http://map.zhaomc.net:8123" target="_blank" class="link-btn">服务器 卫星地图</a>
+            <!-- 卫星地图临时关闭 -->
+            <a href="javascript:void(0)" onclick="return false;" class="link-btn-disabled">卫星地图 更新中 暂未开放</a>
           </td>
         </tr>
       </table>
@@ -86,7 +97,7 @@ a:hover { color: #ff0000; }
           <td>
             <font face="宋体" size="4" color="#000000">
               <p>★ 服务器IP：电信 dx.zhaomc.net | 联通 lt.zhaomc.net | 通用 s1.zhaomc.net</p>
-              <p>★ 游戏版本：1.21.11</p>
+              <p>★ 服务器版本：26.1.2</p>
               <p>★ 服务器类型：纯净生存 | 建筑向 | 多人联机</p>
               <p>★ 服务器QQ群：337028002 | 服主QQ：332999063</p>
               <p align="center"><font color="#ff0000">网站持续建设中，更多内容敬请期待 ✨</font></p>
