@@ -10,6 +10,27 @@ body {
 a:link { color: #0000ff; }
 a:visited { color: #800080; }
 a:hover { color: #ff0000; }
+.news-card {
+    border: 2px solid #000080;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.news-title {
+    font-weight: bold;
+    color: #000080;
+    text-decoration: none;
+}
+.news-title:hover {
+    color: #ff0000;
+}
+.news-date {
+    color: #666666;
+    font-size: 14px;
+}
+.author-tag {
+    color: #ff0000;
+    font-size: 14px;
+}
 </style>
 </head>
 <body>
@@ -20,34 +41,161 @@ a:hover { color: #ff0000; }
     </td>
   </tr>
 
+  <!-- 🔥 导航栏：友邻城镇改为单独页面链接 -->
   <tr>
     <td height="36" bgcolor="#000080">
       <table width="100%" border="0" cellpadding="0" cellspacing="0">
         <tr align="center">
-          <td width="25%"><a href="index.html"><font color="#ffffff" face="宋体" size="3"><b>首页</b></font></a></td>
-          <td width="25%"><a href="download.html"><font color="#ffffff" face="宋体" size="3"><b>下载游戏</b></font></a></td>
-          <td width="25%"><a href="news.html"><font color="#ffffff" face="宋体" size="3"><b>慵懒新闻</b></font></a></td>
-          <td width="25%"><a href="about.html"><font color="#ffffff" face="宋体" size="3"><b>关于本站</b></font></a></td>
+          <td width="20%"><a href="index.html"><font color="#ffffff" face="宋体" size="3"><b>首页</b></font></a></td>
+          <td width="20%"><a href="download.html"><font color="#ffffff" face="宋体" size="3"><b>下载游戏</b></font></a></td>
+          <td width="20%"><a href="news.html"><font color="#ffffff" face="宋体" size="3"><b>慵懒新闻</b></font></a></td>
+          <td width="20%"><a href="about.html"><font color="#ffffff" face="宋体" size="3"><b>关于本站</b></font></a></td>
+          <td width="20%"><a href="friends.html"><font color="#ffffff" face="宋体" size="3"><b>友邻城镇</b></font></a></td>
         </tr>
       </table>
     </td>
   </tr>
 
-  <tr><td height="80"></td></tr>
+  <tr><td height="30"></td></tr>
 
   <tr>
     <td align="center">
       <font face="宋体" size="6" color="#ff0000"><b>📢 慵懒新闻</b></font>
       <br><br>
-      <font face="宋体" size="5" color="#000080"><b>页面建设中...</b></font>
-      <br><br>
-      <font face="宋体" size="3">敬请期待后续更新！（懒得做了）</font>
-      <br><br>
-      <a href="index.html"><font size="3">返回首页</font></a>
     </td>
   </tr>
 
-  <tr><td height="80"></td></tr>
+  <!-- 新闻1 -->
+  <tr>
+    <td>
+      <table width="100%" class="news-card" border="0" cellpadding="15" cellspacing="0">
+        <tr>
+          <td>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="80%">
+                  <a href="news1.html" class="news-title"><font face="宋体" size="4">四年赞助两千元玩家被踢，当事人首次发声</font></a>
+                </td>
+                <td class="news-date" align="right">2026.5.3</td>
+              </tr>
+            </table>
+            <hr color="#cccccc" size="1" noshade>
+            <font face="宋体" size="3">
+              <p class="author-tag">作者：慵懒TV</p>
+              <p>本台此前报道的管理员被踢事件有了新进展，当事人MCdamaiya通过B站发布长文，首度公开回应此事，详细披露了与服主四年间的投入、积累的矛盾与事件完整经过...</p>
+              <p align="right"><a href="news1.html">阅读全文 →</a></p>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <!-- 新闻2 -->
+  <tr>
+    <td>
+      <table width="100%" class="news-card" border="0" cellpadding="15" cellspacing="0">
+        <tr>
+          <td>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="80%">
+                  <a href="news2.html" class="news-title"><font face="宋体" size="4">nitememeda成为粉红岛新的国王</font></a>
+                </td>
+                <td class="news-date" align="right">2026.5.2</td>
+              </tr>
+            </table>
+            <hr color="#cccccc" size="1" noshade>
+            <font face="宋体" size="3">
+              <p class="author-tag">作者：粉红岛台北区</p>
+              <p>粉红岛社群迎来重大人事变动，知名玩家nitememeda正式成为粉红岛新的国王，开启了粉红岛发展的新篇章，未来将带领社区推进建设与活动...</p>
+              <p align="right"><a href="news2.html">阅读全文 →</a></p>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <!-- 新闻3 -->
+  <tr>
+    <td>
+      <table width="100%" class="news-card" border="0" cellpadding="15" cellspacing="0">
+        <tr>
+          <td>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="80%">
+                  <a href="news3.html" class="news-title"><font face="宋体" size="4">管理员被踢出群聊，服主却无正面回应</font></a>
+                </td>
+                <td class="news-date" align="right">2026.5.1</td>
+              </tr>
+            </table>
+            <hr color="#cccccc" size="1" noshade>
+            <font face="宋体" size="3">
+              <p class="author-tag">作者：慵懒TV</p>
+              <p>服务器管理员MCdamaiya被服主单方面移出官方QQ群，且未向社区公开说明原因，服主仅以“没什么，不要太在意”回应，引发社区广泛讨论...</p>
+              <p align="right"><a href="news3.html">阅读全文 →</a></p>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <!-- 新闻4 -->
+  <tr>
+    <td>
+      <table width="100%" class="news-card" border="0" cellpadding="15" cellspacing="0">
+        <tr>
+          <td>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="80%">
+                  <a href="news4.html" class="news-title"><font face="宋体" size="4">台北区正式成立</font></a>
+                </td>
+                <td class="news-date" align="right">2026.4.30</td>
+              </tr>
+            </table>
+            <hr color="#cccccc" size="1" noshade>
+            <font face="宋体" size="3">
+              <p class="author-tag">作者：粉红岛台北区</p>
+              <p>自2026年4月30日23时起，小岛大区正式成为HbzLz下辖的一个行政区，即日起更名为「台北区」，并采用「粉天白日旗」作为区旗，区域改造同步启动...</p>
+              <p align="right"><a href="news4.html">阅读全文 →</a></p>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <!-- 新闻5 -->
+  <tr>
+    <td>
+      <table width="100%" class="news-card" border="0" cellpadding="15" cellspacing="0">
+        <tr>
+          <td>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="80%">
+                  <a href="news5.html" class="news-title"><font face="宋体" size="4">第六届土豆建筑大赛 粉红岛改造计划</font></a>
+                </td>
+                <td class="news-date" align="right">2026.2.12</td>
+              </tr>
+            </table>
+            <hr color="#cccccc" size="1" noshade>
+            <font face="宋体" size="3">
+              <p class="author-tag">作者：粉红岛台北区</p>
+              <p>2026年2月12日-2月25日，第六届土豆建筑大赛于粉红岛正式举办，赛事为期14天，设置了完整的建造、评分、颁奖流程，并有丰厚的游戏内奖品...</p>
+              <p align="right"><a href="news5.html">阅读全文 →</a></p>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <tr><td height="20"></td></tr>
 
   <tr>
     <td height="40" bgcolor="#000080" align="center">
@@ -57,5 +205,6 @@ a:hover { color: #ff0000; }
     </td>
   </tr>
 </table>
+
 </body>
 </html>
