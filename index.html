@@ -17,25 +17,32 @@ a:hover { color: #ff0000; }
 .info-table {
     border: 1px solid #000080;
 }
+/* 🔥 终极按钮样式：强制纯白字 + 宋体，优先级最高，绝对不被覆盖 */
 .link-btn {
-    background-color: #000080;
-    color: #ffffff;
+    background-color: #000080 !important;
+    color: #FFFFFF !important;
     padding: 8px 15px;
     text-decoration: none;
     font-weight: bold;
+    font-family: "宋体" !important;
+    font-size: 16px;
+    display: inline-block;
 }
 .link-btn:hover {
-    background-color: #ff0000;
-    color: #ffffff;
+    background-color: #ff0000 !important;
+    color: #FFFFFF !important;
+    font-family: "宋体" !important;
 }
-/* 卫星地图禁用按钮样式 */
 .link-btn-disabled {
-    background-color: #666666;
-    color: #ffffff;
+    background-color: #666666 !important;
+    color: #FFFFFF !important;
     padding: 8px 15px;
     text-decoration: none;
     font-weight: bold;
     cursor: default;
+    font-family: "宋体" !important;
+    font-size: 16px;
+    display: inline-block;
 }
 </style>
 </head>
@@ -47,7 +54,6 @@ a:hover { color: #ff0000; }
     </td>
   </tr>
 
-  <!-- 🔥 导航栏：友邻城镇改为单独页面链接 -->
   <tr>
     <td height="36" bgcolor="#000080">
       <table width="100%" border="0" cellpadding="0" cellspacing="0">
@@ -77,10 +83,11 @@ a:hover { color: #ff0000; }
       <table width="90%" border="0" cellpadding="10" cellspacing="10">
         <tr align="center">
           <td width="50%">
+            <!-- 🔥 彻底删掉font标签，用CSS完全控制，绝对纯白字！ -->
             <a href="https://gitee.com/q332999063/mc" target="_blank" class="link-btn">入服必读 完整文档</a>
           </td>
           <td width="50%">
-            <!-- 卫星地图临时关闭 -->
+            <!-- 🔥 彻底删掉font标签，用CSS完全控制，绝对纯白字！ -->
             <a href="javascript:void(0)" onclick="return false;" class="link-btn-disabled">卫星地图 更新中 暂未开放</a>
           </td>
         </tr>
@@ -126,9 +133,7 @@ a:hover { color: #ff0000; }
 
   <tr>
     <td height="40" bgcolor="#000080" align="center">
-      <font face="宋体" size="2" color="#ffffff">
-        ©Copyright LazyCraft 2026 | 最佳浏览分辨率：800×600 支持IE5.0及以上版本浏览器
-      </font>
+      <font face="宋体" size="2" color="#ffffff">Copyright © 2026 LazyCraft</font>
     </td>
   </tr>
 </table>
